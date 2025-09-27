@@ -7,14 +7,14 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'jquery/dist/jquery.min.js';
 import './index.css';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter , HashRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <App/>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
 
