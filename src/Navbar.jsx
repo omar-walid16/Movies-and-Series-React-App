@@ -29,18 +29,8 @@ export default function Navbar(props) {
                 <li className="nav-item">
                   <Link className="nav-link" to="about">About</Link>
                 </li>
-                <li className="nav-item">
-                  <Link className="nav-link" to="networks">Networks</Link>
-                </li>
               </> : ''}
               
-            </ul>
-            <ul className='navbar-nav'>
-              {props.userData? <>
-                <li className="nav-item">
-                  <input type="text" placeholder="Search" className="form-control " id="searchInput"/>
-                </li>
-              </>:''}
             </ul>
             <ul className="navbar-nav mb-2 mb-lg-0">
               
@@ -50,10 +40,10 @@ export default function Navbar(props) {
                 <Link onClick={props.logOut} className="nav-link order-lg-last order-first" to="logout">Logout</Link>
                 </li>
                 <li className="nav-item order-lg-first order-last d-flex align-items-center">
-                <i className='fab fa-facebook mx-2'></i>
-                <i className='fab fa-spotify mx-2'></i>
-                <i className='fab fa-instagram mx-2'></i>
-                <i className='fab fa-youtube mx-2'></i>
+                <a href="https://web.facebook.com/omar.walid.787948?locale=ar_AR"  ><i className='fab fa-facebook mx-2'></i></a>
+                <a href="https://www.linkedin.com/in/omar-walid-b96a09363/" className="text-white"><i className='fab fa-linkedin mx-2'></i></a>
+                <a href="https://www.instagram.com/omar_walid299/" className="text-white"><i className='fab fa-instagram mx-2'></i></a>
+                <a href="https://github.com/omar-walid16/" className="text-white"><i className='fab fa-github mx-2'></i></a>
               </li>
               </>:
               <><li className="nav-item">
