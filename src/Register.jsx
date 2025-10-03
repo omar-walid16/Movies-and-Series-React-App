@@ -38,7 +38,7 @@ export default function Register() {
   }
 
   try {
-    let { data } = await Axios.post("http://localhost:5000/api/auth/register", user);
+    let { data } = await Axios.post("https://movies-app-backend-mu.vercel.app/api/auth/register", user);
 
     if (data.message === "success" || data.message === "User registered successfully") {
       setIsLoading(false);

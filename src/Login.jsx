@@ -40,7 +40,7 @@ async function submitRegistration(e) {
   }
 
   else {
-    let { data } = await Axios.post("http://localhost:5000/api/auth/login", user);
+    let { data } = await Axios.post("https://movies-app-backend-mu.vercel.app/api/auth/login", user);
 
     if (data.message === "Login successful") {
       setIsLoading(false);
