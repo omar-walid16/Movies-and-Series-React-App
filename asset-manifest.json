@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Movies-and-Series-React-App/static/css/main.936c3465.css",
-    "main.js": "/Movies-and-Series-React-App/static/js/main.bcfbcc9b.js",
+    "main.css": "/Movies-and-Series-React-App/static/css/main.af7525ec.css",
+    "main.js": "/Movies-and-Series-React-App/static/js/main.2b2e170f.js",
     "static/js/453.90d95b4d.chunk.js": "/Movies-and-Series-React-App/static/js/453.90d95b4d.chunk.js",
     "static/media/avatar.png": "/Movies-and-Series-React-App/static/media/avatar.c8950e9864bba405ea41.png",
     "static/media/about.jpg": "/Movies-and-Series-React-App/static/media/about.c57b1af13c518bcf4ca1.jpg",
@@ -10,12 +10,12 @@
     "static/media/fa-regular-400.woff2": "/Movies-and-Series-React-App/static/media/fa-regular-400.1f38a564cd9eae27ebc3.woff2",
     "static/media/fa-v4compatibility.woff2": "/Movies-and-Series-React-App/static/media/fa-v4compatibility.661bd6b7245d5205d3e1.woff2",
     "index.html": "/Movies-and-Series-React-App/index.html",
-    "main.936c3465.css.map": "/Movies-and-Series-React-App/static/css/main.936c3465.css.map",
-    "main.bcfbcc9b.js.map": "/Movies-and-Series-React-App/static/js/main.bcfbcc9b.js.map",
+    "main.af7525ec.css.map": "/Movies-and-Series-React-App/static/css/main.af7525ec.css.map",
+    "main.2b2e170f.js.map": "/Movies-and-Series-React-App/static/js/main.2b2e170f.js.map",
     "453.90d95b4d.chunk.js.map": "/Movies-and-Series-React-App/static/js/453.90d95b4d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.936c3465.css",
-    "static/js/main.bcfbcc9b.js"
+    "static/css/main.af7525ec.css",
+    "static/js/main.2b2e170f.js"
   ]
 }
